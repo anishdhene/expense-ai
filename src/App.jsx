@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 
 import "./App.css"
 
-import Navbar from "./components/Navbar"
+import Navbar from "./components/NavBar"
 import ExpenseForm from "./components/ExpenseForm"
 import ExpenseCard from "./components/ExpenseCard"
 import ExpenseChart from "./components/ExpenseChart"
