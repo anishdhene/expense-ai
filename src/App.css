@@ -1,0 +1,87 @@
+body {
+
+  margin: 0;
+
+  padding: 0;
+
+  background-color: #f5f7fa;
+
+  font-family: Arial, sans-serif;
+
+}
+
+.app-container {
+
+  max-width: 900px;
+
+  margin: auto;
+
+  padding: 20px;
+
+  width: 100%;
+
+  box-sizing: border-box;
+
+}
+
+.dark {
+
+  background-color: #121212;
+
+  color: white;
+
+  min-height: 100vh;
+
+}
+
+.dashboard-top {
+
+  display: flex;
+
+  gap: 20px;
+
+  align-items: flex-start;
+
+  margin-bottom: 20px;
+
+  flex-wrap: wrap;
+
+}
+
+@media (max-width: 768px) {
+
+  .dashboard-top {
+
+    flex-direction: column;
+
+  }
+
+}
+
+.expense-list {
+
+  display: grid;
+
+  grid-template-columns:
+
+    repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 20px;
+
+  margin-top: 30px;
+
+}
+
+.dashboard-top {
+
+  display: flex;
+
+  gap: 30px;
+
+  align-items: flex-start;
+
+  margin-top: 30px;
+
+  flex-wrap: wrap;
+
+}

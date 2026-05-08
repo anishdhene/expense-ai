@@ -1,0 +1,77 @@
+.expense-card {
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 15px;
+
+  box-shadow:
+
+    0 4px 10px rgba(0,0,0,0.1);
+
+  transition: 0.3s;
+
+}
+
+.expense-card:hover {
+
+  transform: translateY(-5px);
+
+}
+
+.expense-card button {
+
+  margin-right: 10px;
+
+  padding: 8px 14px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+}
+
+.expense-amount {
+
+  font-size: 32px;
+
+  font-weight: bold;
+
+  color: #00C49F;
+
+}
+
+.expense-category {
+
+  margin: 10px 0;
+
+}
+
+.expense-description {
+
+  color: black;
+
+}
+
+.dark-card {
+
+  background: #1e1e1e;
+
+  color: white;
+
+}
+
+.card-actions {
+
+  display: flex;
+
+  justify-content: flex-end;
+
+  gap: 10px;
+
+  margin-bottom: 15px;
+
+}
