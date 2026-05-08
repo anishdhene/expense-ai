@@ -1,4 +1,4 @@
-import "../styles/ExpenseChart.css"
+import "../styles/ExpenseCard.css"
 
 function ExpenseCard(
   {

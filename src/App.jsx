@@ -2,11 +2,11 @@ import { useState, useEffect } from "react"
 
 import "./App.css"
 
-import Navbar from "./components/Navbar.jsx"
-import ExpenseForm from "./components/ExpenseForm.jsx"
-import ExpenseCard from "./components/ExpenseCard.jsx"
-import ExpenseChart from "./components/ExpenseChart.jsx"
-import DashboardCards from "./components/DashboardCards.jsx"
+import Navbar from "./components/Navbar"
+import ExpenseForm from "./components/ExpenseForm"
+import ExpenseCard from "./components/ExpenseCard"
+import ExpenseChart from "./components/ExpenseChart"
+import DashboardCards from "./components/DashboardCards"
 
 function App() {
 
