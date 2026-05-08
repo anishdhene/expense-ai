@@ -58,7 +58,7 @@ function ExpenseForm({
 
       await fetch(
 
-        `http://127.0.0.1:5000/expenses/${editingExpense.id}`,
+        `${import.meta.env.VITE_API_URL}/expenses/${editingExpense.id}`,
 
         {
 
@@ -84,7 +84,7 @@ function ExpenseForm({
 
       await fetch(
 
-        "http://127.0.0.1:5000/expenses",
+        `${import.meta.env.VITE_API_URL}/expenses`,
 
         {
 
